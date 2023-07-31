@@ -1,0 +1,176 @@
+[25-Jul-2023 13:34:13 Asia/Colombo] Warning: Unknown font icon (save now) in ~/includes/functions/func_draw.inc.php on line 56
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 56 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_button()
+ ← ~/admin/customers.app/edit_customer.inc.php on line 345 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:05:35 Asia/Colombo] Warning: Array to string conversion in ~/includes/functions/func_form.inc.php on line 4
+ ← ~/admin/customers.app/edit_customer.inc.php on line 150 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:05:36 Asia/Colombo] Warning: Unknown font icon (id="save") in ~/includes/functions/func_draw.inc.php on line 56
+ ← ~/includes/library/lib_functions.inc.php on line 13 in draw_fonticon()
+ ← ~/includes/functions/func_form.inc.php on line 56 in __callstatic()
+ ← ~/includes/library/lib_functions.inc.php on line 13 in form_draw_button()
+ ← ~/admin/customers.app/edit_customer.inc.php on line 351 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:07:42 Asia/Colombo] Warning: Array to string conversion in ~/includes/functions/func_form.inc.php on line 4
+ ← ~/admin/customers.app/edit_customer.inc.php on line 150 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:07:59 Asia/Colombo] Warning: Array to string conversion in ~/includes/functions/func_form.inc.php on line 4
+ ← ~/admin/customers.app/edit_customer.inc.php on line 150 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:08:25 Asia/Colombo] Warning: Array to string conversion in ~/includes/functions/func_form.inc.php on line 4
+ ← ~/admin/customers.app/edit_customer.inc.php on line 150 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 14:08:37 Asia/Colombo] Warning: Array to string conversion in ~/includes/functions/func_form.inc.php on line 4
+ ← ~/admin/customers.app/edit_customer.inc.php on line 150 in __callstatic()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers
+
+[25-Jul-2023 10:56:14 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[26-Jul-2023 12:42:46 Asia/Colombo] Fatal error: Call to undefined function dd() in ~/admin/customers.app/edit_customer.inc.php on line 88
+Request: POST /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created
+
+[26-Jul-2023 17:23:55 Asia/Colombo] Fatal error: preg_match(): Argument #2 ($subject) must be of type string, array given in ~/includes/functions/func_form.inc.php on line 418
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers&page=1&sort=date_created
+
+[26-Jul-2023 17:25:46 Asia/Colombo] Fatal error: preg_match(): Argument #2 ($subject) must be of type string, array given in ~/includes/functions/func_form.inc.php on line 418
+Request: GET /litecart/admin/?app=customers&doc=edit_customer&page=1&sort=date_created HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=customers&doc=customers&page=1&sort=date_created
+
+[26-Jul-2023 16:42:38 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[26-Jul-2023 17:56:38 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[26-Jul-2023 17:59:38 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[26-Jul-2023 18:23:38 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[27-Jul-2023 19:00:58 Asia/Colombo] Warning: Unknown language code for translation (id="attrigrp") in ~/includes/library/lib_language.inc.php on line 216
+ ← ~/admin/catalog.app/edit_product.inc.php on line 433 in translate()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=catalog&doc=catalog
+
+[27-Jul-2023 19:00:58 Asia/Colombo] Warning: Unknown language code for translation (id="attrival") in ~/includes/library/lib_language.inc.php on line 216
+ ← ~/admin/catalog.app/edit_product.inc.php on line 434 in translate()
+ ← ~/admin/index.php on line 138 in include()
+Request: GET /litecart/admin/?category_id=0&app=catalog&doc=edit_product HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=catalog&doc=catalog
+
+[27-Jul-2023 19:18:35 Europe/Berlin] PHP Notice:  file_get_contents(): Read of 8192 bytes failed with errno=13 Permission denied in C:\xampp\htdocs\litecart\includes\library\lib_vmod.inc.php on line 86
+[28-Jul-2023 10:27:40 Europe/Berlin] Warning: mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in ~/includes/library/lib_database.inc.php on line 26
+ ← ~/includes/library/lib_database.inc.php on line 172 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 81 in query()
+ ← ~/includes/library/lib_language.inc.php on line 22 in load()
+ ← ~/includes/autoloader.inc.php on line 136 in init()
+ ← ~/includes/library/lib_route.inc.php on line 172 in {closure}()
+ ← ~/includes/library/lib_route.inc.php on line 14 in strip_url_logic()
+ ← ~/includes/autoloader.inc.php on line 136 in init()
+ ← ~/admin/index.php on line 4 in {closure}()
+Request: GET /litecart/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+[28-Jul-2023 10:27:40 Europe/Berlin] Fatal error: Could not connect to database: 2002 - No connection could be made because the target machine actively refused it in ~/includes/library/lib_database.inc.php on line 27
+ ← ~/includes/library/lib_database.inc.php on line 172 in connect()
+ ← ~/includes/library/lib_language.inc.php on line 81 in query()
+ ← ~/includes/library/lib_language.inc.php on line 22 in load()
+ ← ~/includes/autoloader.inc.php on line 136 in init()
+ ← ~/includes/library/lib_route.inc.php on line 172 in {closure}()
+ ← ~/includes/library/lib_route.inc.php on line 14 in strip_url_logic()
+ ← ~/includes/autoloader.inc.php on line 136 in init()
+ ← ~/admin/index.php on line 4 in {closure}()
+Request: GET /litecart/admin/ HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+
+[28-Jul-2023 22:58:58 Asia/Colombo] Warning: Undefined variable $app_config in ~/admin/index.php on line 107
+Request: GET /litecart/admin/?app=users&amp;doc=users HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=users&doc=edit_user&page=1
+
+[28-Jul-2023 22:58:58 Asia/Colombo] Warning: Trying to access array offset on value of type null in ~/admin/index.php on line 107
+Request: GET /litecart/admin/?app=users&amp;doc=users HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/admin/?app=users&doc=edit_user&page=1
+
+[31-Jul-2023 13:37:37 Asia/Colombo] Warning: mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in ~/includes/entities/ent_email.inc.php on line 400
+ ← ~/pages/create_account.inc.php on line 121 in send()
+ ← ~/includes/library/lib_route.inc.php on line 125 in include()
+ ← ~/index.php on line 51 in process()
+Request: POST /litecart/create_account HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/create_account
+
+[31-Jul-2023 13:37:37 Asia/Colombo] Warning: Failed sending email "Customer Account Created" in ~/includes/entities/ent_email.inc.php on line 401
+ ← ~/pages/create_account.inc.php on line 121 in send()
+ ← ~/includes/library/lib_route.inc.php on line 125 in include()
+ ← ~/index.php on line 51 in process()
+Request: POST /litecart/create_account HTTP/1.1
+Host: localhost
+Client: ::1 (NIPUNA)
+User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Referer: http://localhost/litecart/create_account
+

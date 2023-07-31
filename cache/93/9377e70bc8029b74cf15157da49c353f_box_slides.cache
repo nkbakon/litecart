@@ -1,0 +1,1 @@
+"<section id=\"box-slides\" class=\"box carousel slide\" data-ride=\"carousel\">\n\n  <div class=\"carousel-inner\">\n<div class=\"item active\">\r\n<img src=\"http://localhost/litecart/images/slides/1-rocket-cart.svg\" alt=\"Rocket Cart\" style=\"width: 100%;\" />\r\n</div>\r\n  </div>\n\n  </section>\n"
