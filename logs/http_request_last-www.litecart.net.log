@@ -1,4 +1,4 @@
-## [2023-07-31 15:07:07] Request #######################################
+## [2023-08-02 19:35:58] Request #######################################
 
 GET /feeds/discussions.rss HTTP/1.1
 Host: www.litecart.net
@@ -8,11 +8,11 @@ Connection: Close
 
 
 
-## [2023-07-31 15:07:09] Response — 9259 bytes transferred in 1.449 s ##
+## [2023-08-02 19:36:00] Response — 9284 bytes transferred in 1.818 s ##
 
 HTTP/1.1 200 OK
 Connection: close
-set-cookie: LCSESSID=g2hm9dksjdhihii8aa4j998i9q; path=/; SameSite=Lax; secure
+set-cookie: LCSESSID=79fcc1nc21b21qk8ac16qmpemu; path=/; SameSite=Lax; secure
 expires: Thu, 19 Nov 1981 08:52:00 GMT
 cache-control: no-store, no-cache, must-revalidate
 pragma: no-cache
@@ -21,8 +21,8 @@ content-security-policy: frame-ancestors 'self';
 access-control-allow-origin: https://www.litecart.net/en/
 x-powered-by: LiteCart.net
 content-type: application/rss+xml; charset=utf-8
-content-length: 8560
-date: Mon, 31 Jul 2023 09:37:10 GMT
+transfer-encoding: chunked
+date: Wed, 02 Aug 2023 14:06:00 GMT
 server: LiteSpeed
 alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
 
@@ -34,12 +34,36 @@ alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=259
     <description>The most recent forum activity.</description>
     <language>en</language>
     <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[Trouble getting the lead box to work.]]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/19671/trouble-getting-the-lead-box-to-work</link>
+      <description></description>
+      <author><![CDATA[mmwfrank]]></author>
+      <pubDate>Wed, 02 Aug 2023 13:33:10 +0000</pubDate>
+    </item>
+    <item>
       <category><![CDATA[Errors and Troubleshooting]]></category>
-      <title><![CDATA[BOOT robots crashes on the LC cms]]></title>
-      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/19677/boot-robots-crashes-on-the-lc-cms</link>
+      <title><![CDATA[Bots causing notices in the error log]]></title>
+      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/19677/bots-causing-notices-in-the-error-log</link>
       <description></description>
       <author><![CDATA[fritz]]></author>
-      <pubDate>Mon, 31 Jul 2023 05:28:21 +0000</pubDate>
+      <pubDate>Wed, 02 Aug 2023 13:30:49 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[Installation and Configuration]]></category>
+      <title><![CDATA[The frontend opens only the first page.]]></title>
+      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/19678/the-frontend-opens-only-the-first-page</link>
+      <description></description>
+      <author><![CDATA[looka]]></author>
+      <pubDate>Wed, 02 Aug 2023 10:51:39 +0000</pubDate>
+    </item>
+    <item>
+      <category><![CDATA[General Discussions]]></category>
+      <title><![CDATA[Only Spanish, Solo español]]></title>
+      <link>https://www.litecart.net/en/forums/2/general-discussions/19687/only-spanish-solo-espanol</link>
+      <description></description>
+      <author><![CDATA[banger25]]></author>
+      <pubDate>Tue, 01 Aug 2023 19:41:58 +0000</pubDate>
     </item>
     <item>
       <category><![CDATA[Add-ons]]></category>
@@ -48,14 +72,6 @@ alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=259
       <description></description>
       <author><![CDATA[mishochu]]></author>
       <pubDate>Sun, 30 Jul 2023 15:42:55 +0000</pubDate>
-    </item>
-    <item>
-      <category><![CDATA[Installation and Configuration]]></category>
-      <title><![CDATA[Trouble getting the lead box to work.]]></title>
-      <link>https://www.litecart.net/en/forums/3/installation-and-configuration/19671/trouble-getting-the-lead-box-to-work</link>
-      <description></description>
-      <author><![CDATA[mmwfrank]]></author>
-      <pubDate>Thu, 27 Jul 2023 14:50:45 +0000</pubDate>
     </item>
     <item>
       <category><![CDATA[Installation and Configuration]]></category>
@@ -176,22 +192,6 @@ alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=259
       <description></description>
       <author><![CDATA[cohesion]]></author>
       <pubDate>Tue, 11 Jul 2023 09:55:11 +0000</pubDate>
-    </item>
-    <item>
-      <category><![CDATA[Errors and Troubleshooting]]></category>
-      <title><![CDATA[Problem displaying the control panel]]></title>
-      <link>https://www.litecart.net/en/forums/15/errors-and-troubleshooting/19576/problem-displaying-the-control-panel</link>
-      <description></description>
-      <author><![CDATA[black1store]]></author>
-      <pubDate>Fri, 07 Jul 2023 15:10:56 +0000</pubDate>
-    </item>
-    <item>
-      <category><![CDATA[Add-ons]]></category>
-      <title><![CDATA[Why can i not use this on latest lc]]></title>
-      <link>https://www.litecart.net/en/forums/7/add-ons/19541/why-can-i-not-use-this-on-latest-lc</link>
-      <description></description>
-      <author><![CDATA[blixten19]]></author>
-      <pubDate>Fri, 07 Jul 2023 09:35:39 +0000</pubDate>
     </item>
   </channel>
 </rss>

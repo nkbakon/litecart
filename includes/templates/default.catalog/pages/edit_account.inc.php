@@ -17,33 +17,38 @@
           </div>
 
           <div class="card-body">
-            <?php echo functions::form_draw_form_begin('customer_account_form', 'post', null, false, 'style="max-width: 800px;"'); ?>
+            <?php echo functions::form_draw_form_begin('customer_account_form', 'post', null, false, 'id="account_form_id" onsubmit="return validateForm()" style="max-width: 800px;"'); ?>
 
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_email_address', 'Email Address'); ?></label>
-                  <?php echo functions::form_draw_email_field('email', true, 'required'); ?>
+                  <?php echo functions::form_draw_email_field('email', true, 'id="email" required'); ?>
+                  <span id="error-message" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_password', 'Password'); ?></label>
-                  <?php echo functions::form_draw_password_field('password', '', 'required'); ?>
+                  <?php echo functions::form_draw_password_field('password', '', 'id="password" required'); ?>
+                  <span id="error-message1" style="color: red; display: none;">This field is required.</span>
                 </div>
               </div>
 
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_new_password', 'New Password'); ?> (<?php echo language::translate('text_or_leave_blank', 'Or leave blank'); ?>)</label>
-                  <?php echo functions::form_draw_password_field('new_password', '', 'autocomplete="new-password" data-toggle="password-strength"'); ?>
+                  <?php echo functions::form_draw_password_field('new_password', '', 'id="newpassword" autocomplete="new-password" data-toggle="password-strength"'); ?>
+                  <span id="error-message2" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_confirm_new_password', 'Confirm New Password'); ?></label>
-                  <?php echo functions::form_draw_password_field('confirmed_password', '', 'autocomplete="off"'); ?>
+                  <?php echo functions::form_draw_password_field('confirmed_password', '', 'id="cmpassword" autocomplete="off"'); ?>
+                  <span id="error-message3" style="color: red; display: none;">This field is required.</span>
+                  <span id="error-message4" style="color: red; display: none;">Confirm Password must be similar to the Password field</span>
                 </div>
               </div>
 
-              <p><?php echo functions::form_draw_button('save_account', language::translate('title_save', 'Save')); ?></p>
+              <p><?php echo functions::form_draw_button('save_account', language::translate('title_save', 'Save'), 'id="save"'); ?></p>
 
             <?php echo functions::form_draw_form_end(); ?>
           </div>
@@ -55,7 +60,7 @@
           </div>
 
           <div class="card-body">
-            <?php echo functions::form_draw_form_begin('customer_details_form', 'post', null, false, 'style="max-width: 800px;"'); ?>
+            <?php echo functions::form_draw_form_begin('customer_details_form', 'post', null, false, 'id="details_form_id" onsubmit="return validateForm1()" style="max-width: 800px;"'); ?>
 
               <?php if (settings::get('customer_field_company') || settings::get('customer_field_tax_id')) { ?>
               <div class="row">
@@ -78,19 +83,22 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_firstname', 'First Name'); ?></label>
-                  <?php echo functions::form_draw_text_field('firstname', true, 'required'); ?>
+                  <?php echo functions::form_draw_text_field('firstname', true, 'id="fname" required'); ?>
+                  <span id="error-message5" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_lastname', 'Last Name'); ?></label>
-                  <?php echo functions::form_draw_text_field('lastname', true, 'required'); ?>
+                  <?php echo functions::form_draw_text_field('lastname', true, 'id="lname" required'); ?>
+                  <span id="error-message6" style="color: red; display: none;">This field is required.</span>
                 </div>
               </div>
 
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_address1', 'Address 1'); ?></label>
-                  <?php echo functions::form_draw_text_field('address1', true, 'required'); ?>
+                  <?php echo functions::form_draw_text_field('address1', true, 'id="address" required'); ?>
+                  <span id="error-message7" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
@@ -102,19 +110,22 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_postcode', 'Postal Code'); ?></label>
-                  <?php echo functions::form_draw_text_field('postcode', true); ?>
+                  <?php echo functions::form_draw_text_field('postcode', true, 'id="postal"'); ?>
+                  <span id="error-message8" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_city', 'City'); ?></label>
-                  <?php echo functions::form_draw_text_field('city', true, 'required'); ?>
+                  <?php echo functions::form_draw_text_field('city', true, 'id="city" required'); ?>
+                  <span id="error-message9" style="color: red; display: none;">This field is required.</span>
                 </div>
               </div>
 
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_country', 'Country'); ?></label>
-                  <?php echo functions::form_draw_countries_list('country_code', true, false, 'required'); ?>
+                  <?php echo functions::form_draw_countries_list('country_code', true, false, 'id="country" required'); ?>
+                  <span id="error-message10" style="color: red; display: none;">This field is required.</span>
                 </div>
 
                 <div class="form-group col-md-6">
@@ -126,7 +137,9 @@
               <div class="row">
                 <div class="form-group col-md-6">
                   <label><?php echo language::translate('title_phone', 'Phone'); ?></label>
-                  <?php echo functions::form_draw_phone_field('phone', true, 'required placeholder="'. (isset($_POST['country_code']) ? reference::country($_POST['country_code'])->phone_code : '') .'"'); ?>
+                  <?php echo functions::form_draw_phone_field('phone', true, 'id="phone" required placeholder="'. (isset($_POST['country_code']) ? reference::country($_POST['country_code'])->phone_code : '') .'"'); ?>
+                  <span id="error-message11" style="color: red; display: none;">This field is required.</span>
+                  <span id="error-message12" style="color: red; display: none;">Please enter a valid phone number.</span>
                 </div>
               </div>
 
@@ -148,6 +161,83 @@
 </div>
 
 <script>
+  function validateForm() {
+    const fields = [
+      { id: 'email', message: '#error-message' },
+      { id: 'password', message: '#error-message1' },
+      { id: 'newpassword', message: '#error-message2' },
+      { id: 'cmpassword', message: '#error-message3' },
+    ];
+
+    let isValid = true;
+
+    fields.forEach(field => {
+      const inputField = $(`#${field.id}`);
+      const errorMessage = $(field.message);
+
+      if (inputField.val().trim() === '') {
+        errorMessage.css('display', 'inline');
+        isValid = false;
+      } else {
+        errorMessage.css('display', 'none');
+      }
+    });
+
+    const passwordField = $('#newpassword');
+    const cmpasswordField = $('#cmpassword');
+    const cmpasswordErrorMessage = $('#error-message4');
+
+    if (passwordField.val() && cmpasswordField.val()) {
+      if (passwordField.val() !== cmpasswordField.val()) {
+        cmpasswordErrorMessage.css('display', 'inline');
+        isValid = false;
+      } else {
+        cmpasswordErrorMessage.css('display', 'none');
+      }
+    }
+
+    return isValid;
+  }
+
+  function validateForm1() {
+    const fields = [
+      { id: 'fname', message: '#error-message5' },
+      { id: 'lname', message: '#error-message6' },
+      { id: 'address', message: '#error-message7' },
+      { id: 'postal', message: '#error-message8' },
+      { id: 'city', message: '#error-message9' },
+      { id: 'country', message: '#error-message10' },
+      { id: 'phone', message: '#error-message11' },
+    ];
+
+    let isValid = true;
+
+    fields.forEach(field => {
+      const inputField = $(`#${field.id}`);
+      const errorMessage = $(field.message);
+
+      if (inputField.val().trim() === '') {
+        errorMessage.css('display', 'inline');
+        isValid = false;
+      } else {
+        errorMessage.css('display', 'none');
+      }
+    });
+
+    const phoneField = $('#phone');
+    const phoneErrorMessage = $('#error-message12');
+    const phoneRegex = /^(\+?\d+)?\d+$/;
+
+    if (phoneField.val().trim() !== '' && (!phoneRegex.test(phoneField.val().trim())  || phoneField.val().trim().replace(/[^\d]/g, '').length < 10)) {
+      phoneErrorMessage.css('display', 'inline');
+      isValid = false;
+    } else {
+      phoneErrorMessage.css('display', 'none');
+    }
+
+    return isValid;
+  }
+
   $('form[name="customer_form"]').on('input propertyChange', ':input', function() {
     if ($(this).val() == '') return;
     $('body').css('cursor', 'wait');
